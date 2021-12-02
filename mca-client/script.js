@@ -9,7 +9,7 @@ function appendDoggos(data){
     const doggos = document.querySelector("#doggos");
     data.forEach(d => {
         const li = document.createElement('li');
-        li.textContent = `${d.name}: ${d.age}!`;
+        li.textContent = `${d.name}: ${d.age}!!`;
         doggos.append(li);
     })
 }
